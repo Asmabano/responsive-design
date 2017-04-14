@@ -1,0 +1,48 @@
+.display{
+  color:white;                                    /*   class of responsive design*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  margin-left: 3%;                                 /* to shift the text in left*/
+}
+.clear{
+  font-size: 100%;                                 /*class of all the header text*/
+}
+.main{
+  background-color: #6ab37b;                       /*class of responsive design,grid,images etc.*/
+   padding-bottom: 10px;
+  padding-bottom: solid #009933;                  /* to give border in bottom*/
+   border-width: 30px;
+}
+.col,.colo,.color{
+  font-family: arial;                           /*class of grid,images,media queries*/
+  background-color: #009933;
+  font-size: 80%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-right: 35px;                           /*to shift the block of grid towards right*/
+  color:white;
+  width:100%;                                   /*width and height of blocks of grid,images,media queries*/
+  height:10%;
+}
+body{
+  margin:0px;
+  width:100%;
+}
+.clear{
+  margin-left: 50px;
+  background-color: white;
+}
+.aside{
+  margin-left: 10%;                      /*to make the box in the side*/
+  margin-right: 15%;                       /*to give margin in left,rightand bottom*/
+  margin-bottom: 40%;
+  background-color: #6ab37b;
+  color:white;
+  padding-left: 10%;                         /*to give padding in left,right and bottom*/
+  padding-right: 10%;
+  padding-bottom: 5%;
+  border-top: solid #009933;             /*to make a border*/
+  border-width: 20px;
+}

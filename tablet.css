@@ -1,0 +1,63 @@
+.display{                                        /*   class of responsive design*/
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  margin-left: 15%;                              /* to shift the text in left*/
+}
+.clear{
+  font-size: 100%;
+}
+.main{                                            /*class of responsive design,grid,images etc.*/
+  background-color: #6ab37b;
+  padding-bottom: 10px;                                /*to give padding in bottom and top*/
+  padding-bottom: solid #009933;
+  border-bottom: solid;                             /* to give border in bottom*/
+  padding-top: 2%;
+  border-width: 30px;
+  border-color: #00b33c;
+  height:20%;
+}
+.col{
+  margin-left: 15%;
+  padding-top:15%;
+
+}
+.col,.colo,.color{                                 /*class of grid,images,media queries*/
+  font-family: arial;
+  background-color: #00b33c;
+  font-size: 80%;
+  text-align: center;
+  padding-top: 2%;                                  /*gap between the block and text*/
+  margin-top: 3%;
+  margin-right: 4%;                                /*to shift the block of grid towards right*/
+  color:white;
+  width:20%;                                       /*width and height of blocks of grid,images,media queries*/
+  height:58%;
+  display: inline-block;
+}
+/*.color{
+  padding-top: 3%;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  width:30%;
+}*/
+body{
+  margin:0px;
+  width:100%;
+}
+.clear{
+  margin-left: 15%;
+  background-color: white;
+}
+.aside{
+  margin-left: 15%;                           /*to make the box in the side*/
+  margin-right: 15%;                           /*to give margin in left,rightand bottom*/
+  margin-bottom: 40%;
+  background-color: #6ab37b;
+  color:white;
+  padding-left: 10%;                         /*to give padding in left,right and bottom*/
+  padding-right: 10%;
+  padding-bottom: 5%;
+  border-top: solid #009933;                /*to make a border*/
+  border-width: 20px;
+}

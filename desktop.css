@@ -1,0 +1,82 @@
+.display{
+  display:inline;
+  margin-left:3%;                  /*   class of responsive design*/
+  padding-left: 15%;          /* to shift the text in left*/
+  font-size:32px;
+  float:left;
+  width:30%;
+  color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+  float:right;
+  width:100%;
+  height:10%;                     /*class of responsive design,grid,images etc.*/
+  padding-left: 20%;
+  background-color: #6ab37b;
+  border-bottom: solid;              /* to give border in bottom*/
+  border-width: 20px;
+  border-color:  #00b33c;
+}
+.clear{
+  float:left;
+  margin-left: 18%;
+  clear: both;                         /*class of all the header text*/
+  width:42%;
+  font-family: serif;
+}
+body{
+  margin: 0px;
+}
+.color{
+  background-color: #00b33c;     /*class of media queries*/
+  height:94%;
+  width:12%;
+  color:white;
+  font-size: 85%;
+  text-align: center;
+  margin-left: -3%;
+  padding-left: .5%;
+  padding-top: 0.4%;
+  border-right-color:#6ab37b;
+  border-right-style:solid;           /* to give border between blocks*/
+  float:left;
+}
+.col{
+  background-color: #00b33c;            /*class of grids*/
+  height:100%;
+  width:10%;
+  text-align: center;
+  color:white;
+  padding-left: 1%;
+  border-right-color:#6ab37b;
+  float:left;
+  margin-left: 6%;                    /*to shift the block of grid towards left*/
+}
+.colo{
+  background-color: #00b33c;                   /*class of images*/
+  /*border-right-width:50px;*/
+  height:100%;
+  width:10%;
+  color:white;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 4%;                    /*to give the gap between grid and images*/
+  padding-left: 1%;                     /* shift the text in left*/
+  border-right-color:#6ab37b;
+  border-right-style:solid;
+  float:left;
+}
+.aside{
+  background-color:#6ab37b;            /*to make the box in the side*/
+  float:left;                            /*shift it to right*/
+  margin-top: 40px;                     /*to give margin in left and top*/
+  margin-left: 50px;
+  border-top: solid;                    /*to make a border*/
+  color:white;
+  border-width: 15px;
+  border-color:  #00b33c;
+  padding-left:30px;                    /*to give padding in left,right and bottom*/
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
